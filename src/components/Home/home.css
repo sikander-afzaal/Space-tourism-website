@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
+/* p * {
+  font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif;
+} */
+.home {
+  display: flex;
+  width: 80%;
+  height: 88vh;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-bottom: 10rem;
+  margin: auto;
+}
+.home_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  height: 374px;
+  gap: 10px;
+}
+.explore {
+  font-size: 38px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  color: black;
+}
+.explore:hover {
+  box-shadow: 0px 0px 5px 80px rgba(151, 151, 151, 0.3);
+}
+.p1 {
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif !important;
+  font-size: 28px;
+}
+.p2 {
+  color: white;
+  font-family: "Bellefair", sans-serif !important;
+  font-size: 150px;
+}
+.p3 {
+  color: #d0d6f9;
+  font-family: "Barlow", sans-serif !important;
+  font-size: 20px;
+  width: 80%;
+  line-height: 27px;
+}
+@media screen and (max-width: 1000px) {
+  .home {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    gap: 100px;
+  }
+  .home_text {
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+  .p3 {
+    width: 55%;
+    text-align: center;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home {
+    margin-top: 130px;
+  }
+  .p2 {
+    font-size: 115px;
+  }
+  .p3 {
+    width: 86%;
+  }
+}
