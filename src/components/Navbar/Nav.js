@@ -93,7 +93,7 @@ function Nav() {
       <ul className="navbar-ul">
         <Link
           data-set="home"
-          to=""
+          to="Space-tourism-website/"
           className="nav-items active first"
           onClick={clickHandler}
         >
@@ -101,7 +101,7 @@ function Nav() {
         </Link>
         <Link
           data-set="destination"
-          to="Destination"
+          to="Space-tourism-website/Destination"
           className="nav-items"
           id="second"
           onClick={clickHandler}
@@ -110,7 +110,7 @@ function Nav() {
         </Link>
         <Link
           data-set="crew"
-          to="Crew"
+          to="Space-tourism-website/Crew"
           className="nav-items"
           onClick={clickHandler}
         >
@@ -118,7 +118,7 @@ function Nav() {
         </Link>
         <Link
           data-set="tech"
-          to="Tech"
+          to="Space-tourism-website/Tech"
           className="nav-items"
           onClick={clickHandler}
         >
